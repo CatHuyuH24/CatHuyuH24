@@ -1,9 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T10:37:26.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.1.0" etag="Uj4BbKm1cnA9efbFPei6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T11:23:22.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="fBvzRJVgbWTQL4X--O-w" version="24.1.0" type="github">
   <diagram name="Page-1" id="o-OPSh5SX2QNBR5iYHtN">
-    <mxGraphModel>
+    <mxGraphModel dx="2977" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Pp_kIQNEF2FAMy9fyn4c-7" target="Pp_kIQNEF2FAMy9fyn4c-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-7" value="Date" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="104" width="210" height="300" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-8" value="- day: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-9" value="- month: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-31" value="- year: int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="78" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-10" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;rotation=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="104" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-33" value="+ setDay(in day: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="136" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-34" value="+ setMonth(in month: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="162" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-36" value="+ setYear(in year: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="188" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-40" value="+ getDay(): int {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="214" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-42" value="+ getMonth(): int {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="240" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-37" value="+ getYear(): int {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-7">
+          <mxGeometry y="266" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-44" value="Product" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="60" width="230" height="390" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-45" value="- id: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-46" value="- name: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="52" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-47" value="- price: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-58" value="- expiryDate: Date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="104" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-48" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=1;labelPosition=right;points=[];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;rotation=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="130" width="230" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-49" value="+ setID(in id: string): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="162" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-59" value="+ setName(in name: string): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="188" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-60" value="+ setPrice(in price: float): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="214" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-61" value="+ setExpiryDate(in expiryDate: Date): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="240" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-62" value="+ getID(): string {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="266" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-63" value="+ getName(): string {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="292" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-65" value="+ getPrice(): float {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="318" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp_kIQNEF2FAMy9fyn4c-52" value="+ getExpiryDate(): Date {query}" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="Pp_kIQNEF2FAMy9fyn4c-44">
+          <mxGeometry y="344" width="230" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
